@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Buttons</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #f0f0f0;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gradient-btn {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .gradient-btn:hover {
+            transform: scale(1.08);
+        }
+        .btn1 { background: linear-gradient(90deg, #ff7e5f, #feb47b); }
+        .btn2 { background: linear-gradient(90deg, #6a11cb, #2575fc); }
+        .btn3 { background: linear-gradient(90deg, #43cea2, #185a9d); }
+        .btn4 { background: linear-gradient(90deg, #f7971e, #ffd200); }
+        .btn5 { background: linear-gradient(90deg, #e53935, #e35d5b); }
+        .btn6 { background: linear-gradient(90deg, #fc5c7d, #6a82fb); }
+        .btn7 { background: linear-gradient(90deg, #00c6ff, #0072ff); }
+        .btn8 { background: linear-gradient(90deg, #f953c6, #b91d73); }
+        .btn9 { background: linear-gradient(90deg, #ee9ca7, #ffdde1); }
+        .btn10 { background: linear-gradient(90deg, #11998e, #38ef7d); }
+    </style>
+</head>
+<body>
+    <h2>10 Gradient Buttons</h2>
+    <div class="button-container">
+        <button class="gradient-btn btn1">Button 1</button>
+        <button class="gradient-btn btn2">Button 2</button>
+        <button class="gradient-btn btn3">Button 3</button>
+        <button class="gradient-btn btn4">Button 4</button>
+        <button class="gradient-btn btn5">Button 5</button>
+        <button class="gradient-btn btn6">Button 6</button>
+        <button class="gradient-btn btn7">Button 7</button>
+        <button class="gradient-btn btn8">Button 8</button>
+        <button class="gradient-btn btn9">Button 9</button>
+        <button class="gradient-btn btn10">Button 10</button>
+    </div>
+</body>
+</html>
